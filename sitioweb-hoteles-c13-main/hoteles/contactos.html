@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inicio-hoteles</title>
+    <link rel="shortcut icon" href="imagenes/logo.png" type="image/x-icon">
+</head>
+<body> 
+    <!-- <a href="servicios.html">ir a servicios </a> 
+    <a href="https://www.youtube.com/?app=desktop&hl=es">ir a youtube</a> -->
+        <!-- <img src="imagenes/logo.png" width="5%">  --> 
+
+        <div style="display: flex; justify-content:center; gap: 10px;">
+            <a href="nosotros.html">nosotros</a> 
+            <a href="servicios.html">servicios-hoteles</a> 
+            <a href="contactos.html">contactos</a>
+        </div>
+    <div align="center">
+        <h1 style="color: darkturquoise;">conoce nuestro alojamiento</h1>
+        <p>somos la mejor agencia de hoteles</p>
+        <!--imagen-->
+        <img width="30%" src="imagenes/call center hotel.jpg" alt="contactanos">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.060628498012!2d-75.62384792415322!3d6.255743476215227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442bd61b35b135%3A0x7ac589026488978b!2sSan%20Javier%2C%20Medell%C3%ADn%2C%20San%20Javier%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1738264174083!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></>" frameborder="0"></iframe>
+    </div>
+    <div>
+        <form style="text-align:center; margin-top: 20px; margin-bottom: 20px">
+            <label>Escriba su nombre:</label>
+            <input name="nombreCliente" type="text" placeholder="Escriba en mayusculas"><br>
+            <label>Celular o Telefono</label>
+            <input name="telefono" type="tel"><br>
+            <label>Su edad:</label>
+            <input name="edad" type="number" min="18" max="50"><br>
+            <label>Escriba su correo:</label>
+            <input name="correo" type="email"><br>
+            <label>Fecha de nacimiento</label>
+            <input type="date" min="1950-01-01" max="2006-12-31"><br>
+            <label>Envia una foto</label>
+            <input type="file" accept=".jpg, .png, .gif" max="2MB"><br>
+            <label>Genero</label>
+            <input type="Radio" name="Genero" value="Hombre">Hombre
+            <input type="Radio" name="Genero" value="Mujer">Mujer
+            <input type="Radio" name="Genero" value="No se">Nose
+            <input type="Radio" name="Genero" value="Otro">otro <br>
+            <label>Escoge tu plan</label>
+            <input type="checkbox" name="Plan" value="Pareja">Plan Pareja
+            <input type="checkbox" name="Plan" value="Familiar">Plan Familiar
+            <input type="checkbox" name="Plan" value="Amigos">Plan Pareja
+            <input type="checkbox" name="Plan" value="Otro">Otro <br>
+            <label>Selecciona ina opcion de contacto:</label>
+            <select name="contacto">
+                <option value="via WhatsAppp">via WhatsAppp</option>
+                <option value="señales de humo">señales de humo</option>
+                <option value="llamada telefonica">tallada telefonica</option>
+                <option value="otro">otro</option>
+            </select> <br>
+
+            <button type="submit">Enviar datos</button>
+            <button type="reset">Borrar datos</button>
+
+
+        </form>
+    </div>
+    
+</body>
+</html>
